@@ -1,0 +1,12 @@
+
+jelaskan eror berikut
+./libs/dorm.c: In function 'dormindex':
+./libs/dorm.c:45:39: error: subscripted value is neither array nor pointer nor vector
+   45 |             if ( strcmp ( _name, dorms[i].name) == 0)
+   translate subscripted value is neither array nor pointer nor vector
+
+jelaskan eror berikut
+./libs/dorm.c: In function 'dormindex':
+./libs/dorm.c:45:39: error: subscripted value is neither array nor pointer nor vector
+   45 |             if ( strcmp ( _name, dorms[i].name) == 0){
+padahal yang ingin dibuat adalah array

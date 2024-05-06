@@ -9,7 +9,9 @@
  * The actual function implementation should be defined in the corresponding source file.
  *
  */
-
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 struct student_t
 {
     char id[12];
@@ -21,5 +23,9 @@ struct student_t
 
 struct student_t create_student(char *_id, char *_name, char *_year,
                                 enum gender_t _gender);
+                                void print_student (struct student_t _student);
+void print_student_all_detail (struct student_t _student);
+void assign_student (struct student_t *_student, struct dorm_t *_dorm, int dorm_size, int student_size) ;
+void print_student (struct student_t _student);
 
 #endif

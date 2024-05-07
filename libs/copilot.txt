@@ -1,8 +1,1 @@
-In file included from t09_01.c:7:
-./libs/dorm.h:25:30: error: unknown type name 'dorm_t'
-   25 | void print_dorm_all_detail ( dorm_t dorm_);
-   jelaskan maksud dari 
-./libs/dorm.c: In function 'dormindex':
-./libs/dorm.c:45:39: error: subscripted value is neither array nor pointer nor vector
-   45 |             if ( strcmp ( _name, dorms[i].name) == 0)
-   apa yang membuat output seperti ini
+kenapa kode tidak mengeluarkan output padahal tidak error

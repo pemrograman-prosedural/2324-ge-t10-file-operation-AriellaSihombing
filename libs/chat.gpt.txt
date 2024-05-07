@@ -8,4 +8,4 @@ o:repository.c:(.text+0x14a): multiple definition of `main';
 C:\Users\HP\AppData\Local\Temp\ccSISCVC.o:t10_01.c:(.text+0x51): first defined here
 collect2.exe: error: ld returned 1 exit status
 apakah fopen harus diakhiri dengan fclose
-
+apa penyebab kode bisa meminta input tapi tidak mengeluarkan output padahal tidak ada error

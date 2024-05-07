@@ -23,13 +23,3 @@ int line_count(const char *filename) {
     fclose(file);
     return lines;
 }
-
-// Definisikan main di sini jika repository.c ingin digunakan sebagai program mandiri
-int main(int argc, char **argv) {
-    int count = line_count("example.txt");
-    if (count >= 0) {
-        printf("Number of lines in file: %d\n", count);
-    }
-
-    return 0;
-}

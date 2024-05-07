@@ -1,12 +1,11 @@
+bagaimana cara mengakses file yang ada di txt kedalam kode c
+kenapa kode c tiba-tiba exit ketika di run di terminal
+bagaimana mengakses folder storage untuk digunakan dalam folder lain
+apa arti 
+d:/mingw/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../
+x86_64-w64-mingw32/bin/ld.exe: C:\Users\HP\AppData\Local\Temp\cce4hv1V.
+o:repository.c:(.text+0x14a): multiple definition of `main'; 
+C:\Users\HP\AppData\Local\Temp\ccSISCVC.o:t10_01.c:(.text+0x51): first defined here
+collect2.exe: error: ld returned 1 exit status
+apakah fopen harus diakhiri dengan fclose
 
-jelaskan eror berikut
-./libs/dorm.c: In function 'dormindex':
-./libs/dorm.c:45:39: error: subscripted value is neither array nor pointer nor vector
-   45 |             if ( strcmp ( _name, dorms[i].name) == 0)
-   translate subscripted value is neither array nor pointer nor vector
-
-jelaskan eror berikut
-./libs/dorm.c: In function 'dormindex':
-./libs/dorm.c:45:39: error: subscripted value is neither array nor pointer nor vector
-   45 |             if ( strcmp ( _name, dorms[i].name) == 0){
-padahal yang ingin dibuat adalah array
